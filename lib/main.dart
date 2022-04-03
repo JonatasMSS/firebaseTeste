@@ -13,7 +13,6 @@ void main() async {
   for (var doc in result.docs) {
     dados.add(doc.data());
   }
-  print(dados);
 }
 
 class MyApp extends StatelessWidget {
